@@ -1,40 +1,9 @@
-pipeline{
+pipeline {
     agent any
 
     stages{
-        stage('IP Address'){
-            steps{
-                sh "hostaname -I "
-            }
-        }
-         stages{
-        stage('CPU Details'){
-            steps{
-                sh "lscpu"
-            }
-        } stages{
-        stage('Disk Usage'){
-            steps{
-                sh "du -h "
-            }
-        } stages{
-        stage('Memory Usage'){
-            steps{
-                sh "free -h "
-            }
-        }
-         stages{
-        stage('Date'){
-            steps{
-                sh "Date "
-            }
-        }
-         stages{
-        stage('Partition'){
-            steps{
-                sh "lsblk "
-            }
+        stage('IP Address INFO:'){
+            steps{sh "hostname -I"}
         }
     }
-}
 }
