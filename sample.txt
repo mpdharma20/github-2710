@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 hello boys
 go home 
 dont come
+=======
+ hi 
+hello
+world
+2025
+
+>>>>>>> 5c94212 (new file added)

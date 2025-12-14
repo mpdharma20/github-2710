@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 Hello World
 one more line
 
+=======
+Hello World
+Adding branching code
+
+hello
+12345
+>>>>>>> 5c94212 (new file added)
